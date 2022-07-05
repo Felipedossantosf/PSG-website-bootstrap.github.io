@@ -1,0 +1,123 @@
+@font-face {
+    font-family: miFuente;
+    src: url(/Semana15/fonts/AbrilFatface-Regular.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+header{
+    height: 90px;
+    background-color: rgb(23, 23, 57);
+}
+
+header figure img{
+    width: 70px;
+}
+
+header ul li a{
+    color: white;
+    text-transform: capitalize;
+    background-color: rgb(175, 49, 49);
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color: white;
+    background-color: rgb(23, 23, 57)
+}
+
+/* SECTION 1 */
+
+section:nth-of-type(1){
+    height: 250px;
+    background-image: url(../img/estadio.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 3px solid rgb(175, 49, 49);
+}
+
+/* SECTION 2 */
+
+.coloreado{
+    color: rgb(175, 49, 49);
+}
+
+section:nth-of-type(2) h1,h2{
+    font-family: miFuente;    
+}
+
+section:nth-of-type(2) h1{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+section:nth-of-type(2) article{
+    margin: 15px;
+}
+section:nth-of-type(2) article a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(175, 49, 49);
+}
+
+/* SECTION 3 */
+
+section:nth-of-type(3){
+    height: 170px;
+    background-image: url(../img/fans.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top:3px solid rgb(175, 49, 49) ;
+    border-bottom: 3px solid rgb(23, 23, 57);
+}
+
+/* SECTION 4 | JUGADORES */
+
+
+section:nth-of-type(4) h1{
+    text-transform: capitalize;
+    font-family: miFuente;
+}
+
+section:nth-of-type(4) a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(175, 49, 49);
+}
+
+/* SECTION 5 | CAMISETA */
+
+section:nth-of-type(5){
+    
+    border-top:3px solid rgb(23, 23, 57);
+    border-bottom: 3px solid rgb(175, 49, 49);
+}
+section:nth-of-type(5) figure img{
+    width: 400px;
+}
+
+section:nth-of-type(5) h1{
+    text-transform: capitalize;
+    font-family: miFuente;
+}
+
+/* SECTION 6 | FORMULARIO */
+
+input{
+    border: 1px solid rgb(175, 49, 49);
+    width: 100%;
+}
+
+input::placeholder{
+    color: grey;
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color:rgb(175, 49, 49);
+    color: white;
+}
